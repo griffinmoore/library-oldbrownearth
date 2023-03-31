@@ -1,0 +1,13 @@
+url: "https://library.oldbrownearth.com"
+title: "Old Brown Earth Library"
+permalink: /:title
+
+plugins:
+  - jekyll-postcss
+
+collections:
+  articles:
+    output: true
+
+postcss:
+  cache: false

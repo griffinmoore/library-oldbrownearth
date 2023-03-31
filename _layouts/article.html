@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="">
+  <h2 class="text-2xl mb-5">
+    {{ page.title }}
+  </h2>
+
+  <div class="article-body space-y-5 mb-8">
+    {{ content }}
+  </div>
+
+  <div class="text-gray-400">
+    Last modified {% capture lastmod_date %}{% last_modified {{ page.path }} %}{% endcapture %}{{ lastmod_date | date: "%d %B %Y"  }}
+</article>
