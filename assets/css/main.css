@@ -9,6 +9,8 @@ html {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E1DFD3;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 @font-face {
