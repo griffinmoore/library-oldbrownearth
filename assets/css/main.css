@@ -30,7 +30,7 @@ html {
 }
 
 .article-body a {
-  @apply text-yellow-700;
+  @apply text-yellow-800;
   text-decoration: underline;
 }
 
