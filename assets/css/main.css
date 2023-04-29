@@ -26,3 +26,12 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+.article-body a {
+  @apply text-yellow-700;
+  text-decoration: underline;
+}
+
+.article-body a:hover {
+  @apply text-yellow-950;
+}

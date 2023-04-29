@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Appropriate Technology"
+title: "Technology"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus est sit amet est vulputate pretium. Aenean ex lorem, tempor a finibus nec, condimentum et magna. Nulla in est et lectus vestibulum pulvinar. Integer hendrerit, augue quis auctor rutrum, nulla ex placerat dui, et rutrum leo nisi nec tortor. Aenean accumsan, erat eu venenatis pharetra, augue tortor auctor tortor, gravida porta sapien risus ut magna. Ut sit amet molestie enim. Nullam nec magna at enim vulputate tristique a in justo. Aenean vel risus et magna imperdiet gravida. Proin ultricies magna elit, nec porta tellus egestas quis. Morbi vestibulum ante et risus fringilla convallis. Integer in dignissim lorem. Fusce non convallis risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
