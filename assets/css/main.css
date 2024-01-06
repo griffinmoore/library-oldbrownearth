@@ -9,7 +9,7 @@ html {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E1DFD3;
+  background-color: #BA9987;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -30,10 +30,20 @@ html {
 }
 
 .article-body a {
-  @apply text-yellow-900;
   text-decoration: underline;
 }
 
 .article-body a:hover {
-  @apply text-yellow-950;
+}
+
+blockquote {
+  opacity: 0.75;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 1.5rem;
+}
+
+h3 {
+  font-family: "Grotesk";
+  @apply uppercase;
+  @apply text-2xl;
 }

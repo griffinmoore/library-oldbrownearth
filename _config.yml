@@ -1,5 +1,5 @@
-url: "https://library.oldbrownearth.com"
-title: "Old Brown Earth Library"
+url: "https://oldbrownearth.com"
+title: "Old Brown Earth"
 permalink: /:title
 
 plugins:

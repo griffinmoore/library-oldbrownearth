@@ -3,4 +3,12 @@ layout: default
 title: "Index"
 ---
 
-Nothing to see here yet.
+<div class="grid gap-9 grid-cols-1 sm:grid-cols-3">
+  {% for article in site.articles %}
+    <a class="flex items-center justify-center bg-black/5 rounded-sm overflow-hidden hover:bg-black/10" href="{{ article.url }}">
+      <div class="px-12 py-14">
+        <img class="max-h-48 w-auto rounded-sm {% if article.shadow %}shadow-md{% endif %}" src="{{ site.baseurl }}/assets/img/{{ article.image }}" alt="{{ article.title }}" title="{{ article.title }}">
+      </div>
+    </a>
+  {% endfor %}
+  </div>

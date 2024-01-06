@@ -7,23 +7,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body class="leading-loose">
-    <container class="">
 
-      <sidebar class="block p-6 space-y-4 sm:fixed sm:w-72 sm:p-8">
-        <a class="text-2xl font-display uppercase" href="{{ site.baseurl }}/">Library</a>
-        <ul class="list-none">
-          {% for article in site.articles %}
-            <li>
-              <a href="{{ article.url }}">{{ article.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </sidebar>
+    <div class="p-8 pb-12">
 
-      <main class="p-6 pb-20 sm:ml-72 sm:max-w-4xl sm:p-8">
+      <main class="m-auto max-w-6xl">
+        <div class="pt-4 pb-12 text-center">
+          <a class="inline-block" href="{{ site.baseurl }}/">
+            <h3>Old Brown Earth</h3>
+          </a>
+        </div>
+
         {{ content }}
       </main>
 
-    </container>
+    </div>
+
   </body>
 </html>
